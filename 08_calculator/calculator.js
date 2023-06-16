@@ -24,7 +24,7 @@ const power = function(a,b) {
 
 const factorial = function(number) {
 	let total = 1;
-  for (let i=0; i < number; i++){
+  for (let i=1; i <= number; i++){
     total *= i;
   }
   return total
